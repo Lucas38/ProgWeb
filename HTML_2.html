@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Instituto de Computação</title>
+  </head>
+  <body>
+    <h1>Formulário De Contato</h1>
+    <p1>Por favor, preencha o formulário abaixo e clique no botão Enviar Mensagem. Agradecemos por seu contato.</p1><br><br>
+    <fieldset>
+      <legend>Dados básicos</legend>
+      Nome <input type="text" name="name" id="nome"required placeholder="seu nome"><br>
+      E-mail <input type="text" name="email" id="email" required placeholder="seunome@dominio.com.br"><br>
+      Website <input type="text" name="website" value="http://"id="website">
+    </fieldset>
+    <fieldset>
+      <legend>Seu curso no Instituto de Computação:</legend>
+		<input type="radio" name="curso" value="">Ciência da computação<br>
+		<input type="radio" name="curso" value="">Sistemas de Informação<br>
+		<input type="radio" name="curso" value="">Engenharia da Computação<br>
+    </fieldset>
+    <fieldset>
+      <legend>Assinale as linguagens já usadas por você:</legend>
+		<input type="checkbox" name="java" value="">Java
+		<input type="checkbox" name="C" value="">C
+		<input type="checkbox" name="C++" value="">C++
+		<input type="checkbox" name="Perl" value="">Perl
+		<input type="checkbox" name="Python" value="">Python
+		<input type="checkbox" name="Javascript" value="">JavaScript
+    </fieldset>
+    <fieldset>
+      <legend>Dados complementares:</legend>
+		Cor favorita <input type="color"><br>
+		Data de nascimento <input type="date" name="Nascimento" value=""><br>
+		Ano de entrada em seu curso do icomp:<input type="number" name="ano" min="1980" max="2016"step="1" value="2000" id="ano"><br>
+		Nota para este curso <input type="range">
+    </fieldset>
+    <fieldset>
+      <legend>Área de atuação:</legend>
+		<select  name="area" id="area">
+			<option value="1">Banco de Dados</option>
+			<option value="2">Educação a Distância</option>
+			<option value="3">Engenharia de software</option>
+			<option value="4">Otimização</option>
+			<option value="5">Programção para Web</option>
+			<option value="6">Recuperação de Informação</option>
+			<option value="7">Rede de Computadores</option>
+		</select>
+    </fieldset>
+    <fieldset>
+      <legend>Submeta seu curriculo vitae:</legend>
+		<input type="file" name="curriculo">
+    </fieldset>
+    <fieldset>
+      <legend>Digite sua Mensagem:</legend>
+		<textarea name="mensagem" rows="4" cols="50">Este é o valor padrão!</textarea>
+    </fieldset>
+		<input type="reset" name="" value="Resetar Dados">
+		<input type="submit" name="" value="Enviar Mensagem">
+  </body>
+</html>
