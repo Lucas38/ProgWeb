@@ -1,0 +1,20 @@
+body{
+  background-color: #ADD8E6;
+  background-image: url(http://catedralviagens.com.br/roma/wp-content/uploads/2015/08/roma.jpeg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 1050px 1250px;
+  padding-right: 800px;
+  padding-left: 250px;
+  padding-top: 150px;
+}
+p{
+  border: 10px solid brown;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  background-color: #D3D3D3;
+  opacity: 0.8;
+  text-align: center;
+}
